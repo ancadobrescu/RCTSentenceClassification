@@ -97,7 +97,6 @@ All preprocessing stepsâ€”including cleaning, tokenization, and data splittingâ€
 Each of these contains:
   - `svm/`, `biobert_opt/`, `biobert_opt_aug/`: Model-specific result folders.
     - Inside each model folder:
-      - `models/`: Stores all model runs and checkpoints.
       - `fold_X_seed_Y.xlsx`: Excel files representing evaluation results on each of the 5 folds for each random seed used.
       - `all_predictions.xlsx`: Contains all predictions made by the model across folds/seeds.
       - `metrics.xlsx`: Summary of evaluation metrics (e.g., precision, recall, F1-score).
